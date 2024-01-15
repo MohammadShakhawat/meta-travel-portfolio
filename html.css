@@ -1,0 +1,93 @@
+header {
+    padding: 50px 240px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2 .travel {
+    color: #FF900E;
+}
+
+nav h2 {
+    display: flex;
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500px;
+    font-size: 1rem;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #424242;
+}
+
+nav ul .home-btn {
+    color: #FF900E;
+}
+
+.section-container {
+    background-image: url(./Images/Group\ 13\ \(1\)\ \(1\).png);
+    height: 600px;
+    width: 1140px;
+    margin: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.section-Title {
+    color: #fff;
+    text-align: center;
+    font-size: 70px;
+    font-weight: 400;
+  }
+ 
+.section-Description {
+    color: #fff;
+    text-align: center;
+    font-size: ;
+    font-style: normal;
+    margin-bottom: 50px;  
+  }
+
+.input{
+    border-radius: 10px;
+  background: #FFF;
+  width: 150px;
+  height: 52px;
+  border: 0;
+  outline: 0;
+  border-radius: 10px;
+  background: #FFF; 
+  }
+
+.inputParent{
+    position: relative;
+    margin-top: 10px;
+  }
+
+.Subscribe{
+    position: absolute;
+    right: 0;
+    background-color: #F00;
+    color: wheat;
+    width: 150px;
+    height: 52px;
+    border-radius: 10px; 
+ }
