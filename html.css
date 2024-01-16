@@ -5,8 +5,44 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+.banner-title {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.meta-section {
+    display: flex;
+    color: var(--Dark-01, #131318);
+    font-family: Mulish;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    gap: 10px;
+}
+
+.travel {
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
 .text-color {
     color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
 }
 
 .btn-primary {
@@ -45,7 +81,7 @@ nav h2 {
     display: flex;
 }
 
-nav .home-btn a{
+nav .home-btn a {
     color: #FF5400;
 }
 
@@ -140,6 +176,10 @@ nav li a {
     font-weight: 800;
 }
 
+.pera .text-color {
+    margin-left: 0;
+}
+
 .destinaion-section {
     text-align: center;
 }
@@ -165,16 +205,121 @@ nav li a {
     padding: 24px;
 }
 
-.Bagan-section{
-   align-items: center;
+.Bagan-section {
+    align-items: center;
 }
-.class-title{
+
+.class-title {
     text-align: center;
 }
-.text-color{
+
+.text-color {
     text-align: center;
 }
+
 .img-class {
     margin-top: 20px;
     width: 100%;
+}
+
+.section-head {
+    text-align: center;
+}
+
+.choose-title {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.page-Title {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.dual-section {
+    display: flex;
+    gap: 20px;
+}
+
+.hotel-deals {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    width: 573px;
+    height: 284px;
+    text-align: center;
+
+}
+
+.map-sevice {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    width: 573px;
+    height: 284px;
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.price-tag-section {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    width: 573px;
+    height: 284px;
+    flex-shrink: 0;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.place-section {
+    text-align: center;
+    display: flex;
+    gap: 20px;
+}
+
+.offer-img {
+    border-radius: 16px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.offer-description {
+    border-radius: 16px;
+    background: #FF5400;
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.entry-section {
+    display: flex;
+    align-items: center;
+}
+
+.bordar-side {
+    border: solid salmon;
+}
+
+.footer {
+    background: rgba(19, 19, 24, 0.05);
+    width: 1440px;
+    height: 502px;
+    align-items: center;
+    text-align: center;
 }
