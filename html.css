@@ -24,6 +24,8 @@
     font-weight: 800;
     line-height: normal;
     gap: 10px;
+    align-items: center;
+    justify-content: center;
 }
 
 .travel {
@@ -61,6 +63,7 @@
 
 header {
     padding: 50px 240px;
+    width: 100%;
 }
 
 nav {
@@ -117,9 +120,11 @@ nav li a {
     flex-direction: column;
     border-radius: 10px;
     margin-top: 10px;
-    l
 }
-
+.section-container img{
+    margin-top: 20px;
+    width: 100%;
+}
 .section-Title {
     color: #fff;
     text-align: center;
@@ -166,7 +171,12 @@ nav li a {
 .popular-section {
     display: flex;
     align-items: center;
+    margin-top: 20px;
+    gap: 100px;
+   
 }
+
+
 
 .popular-title {
     color: #131318;
@@ -204,7 +214,12 @@ nav li a {
     gap: 24px;
     padding: 24px;
 }
-
+.bagan-class{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 .Bagan-section {
     align-items: center;
 }
@@ -220,6 +235,12 @@ nav li a {
 .img-class {
     margin-top: 20px;
     width: 100%;
+}
+
+main {
+    padding: 50px 240px;
+    width: 100%;
+    
 }
 
 .section-head {
@@ -244,9 +265,16 @@ nav li a {
     font-weight: 800;
     line-height: normal;
 }
+.section-head{
+    
+    align-items: center;
+    justify-content: center;
+}
 
 .dual-section {
     display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 20px;
 }
 
@@ -280,7 +308,6 @@ nav li a {
     text-align: center;
     padding: 20px;
     margin-top: 20px;
-    display: flex;
     align-items: center;
     justify-content: center;
 
@@ -290,6 +317,8 @@ nav li a {
     text-align: center;
     display: flex;
     gap: 20px;
+    justify-content: center;
+
 }
 
 .offer-img {
@@ -310,16 +339,51 @@ nav li a {
 .entry-section {
     display: flex;
     align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
 }
 
 .bordar-side {
-    border: solid salmon;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
 }
 
 .footer {
     background: rgba(19, 19, 24, 0.05);
-    width: 1440px;
-    height: 502px;
+    padding: 40px;
     align-items: center;
     text-align: center;
+    justify-content: center;
+    width: 100%;
+    padding: 50px 240px;
 }
+
+
+@media screen and (max-width: 576px) {
+    header{
+        padding: 20px;
+    }
+    nav,
+    .destinaion-section,
+    .img-decoration,
+    .img-decoration2,
+    .img-decoration3,
+    .section-container,
+    .bagan-class,
+    .popular-section{
+        flex-direction: column;
+    }
+    .img-decoration,
+    .img-decoration3,
+    {
+        max-width: 45%;
+        position: static;
+    }
+    .bagan-class .img-class{
+        max-width: 45%;
+        position: static;
+    }
+}
+
+
